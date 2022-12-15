@@ -11,20 +11,19 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-
-
-
+    return view('frontend.homepage');
+})->name('home');
+Route::get('/panchayat', function () {
+    return view('frontend.panchayat');
+})->name('panchayat');
 
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
-    'verified'
+    'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
