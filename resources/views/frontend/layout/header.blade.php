@@ -26,7 +26,7 @@
         @livewireStyles
     </head>
     <body class="antialiased">
-        <div class="relative flex flex-col min-h-screen bg-gray-200 dark:bg-gray-900 py-4 sm:pt-0">
+        <div class="relative flex flex-col bg-gray-200 dark:bg-gray-900 py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
