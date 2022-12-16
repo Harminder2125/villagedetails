@@ -1,5 +1,5 @@
 <div class="relative px-4">
-    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-between border-b-8 {{$bordercolor}} mb-1">
+    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-between border-b-4 {{$bordercolor}} mb-1">
         <div class="flex flex-col">
             <div class="mb-5">
                 {{$photo}}

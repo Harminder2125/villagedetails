@@ -1,15 +1,16 @@
 @extends('frontend.layout.main')
-@section('content')
-<h5 class="font-bold leading-tight text-xl mt-0 mb-2 text-zinc-900">Officers</h5>
-    <div class="bg-zinc-100 flex rounded p-2 mb-5">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 text-orange-500">
-         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
-      </svg>
-      <h6 class="text-xs ml-1 font-bold text-orange-500">Officers looking after different works of this village</h6>
-    </div>
-    <div class="bg-zinc-100 p-10 rounded">
-    <div class="w-full justify-center flex flex-wrap">
 
+        @section('pagetitle')
+    Officers
+@endsection
+@section('subtitlelogo')
+         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
+@endsection
+@section('subtitletext')
+Officers looking after different works of this village
+@endsection
+@section('content')
+<div class="w-full justify-center flex flex-wrap bg-zinc-100 p-10">
   <div class="flex-1 mb-10">
     <div class="w-full ">
         @component('frontend.components.officer-cards')
@@ -17,7 +18,7 @@
             <img src="./assets/images/Sarpanch/sikh.jpg" class="w-16 h-16 rounded-full"/>
         @endslot
         @slot('badgecolor')
-           border-zinc-700
+           border-zinc-400
         @endslot
         @slot('designation')
         <span class="bg-lime-400 text-lime-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -43,7 +44,7 @@
     <img src="./assets/images/Sarpanch/girl1.jpg" class="w-16 h-16 rounded-full"/>
     @endslot
     @slot('badgecolor')
-    border-zinc-700
+    border-zinc-400
     @endslot
     @slot('designation')
     <span class="bg-orange-200 text-orange-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -69,7 +70,7 @@
     <img src="./assets/images/MLA/drkashmirsingh.jpg" class="w-16 h-16 rounded-full"/>
     @endslot
     @slot('badgecolor')
-    border-zinc-700
+    border-zinc-400
     @endslot
     @slot('designation')
     <span class="bg-orange-200 text-orange-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -95,7 +96,7 @@
     <img src="./assets/images/Sarpanch/Sarpanch.jpg" class="w-16 h-16 rounded-full"/>
     @endslot
     @slot('badgecolor')
-    border-zinc-700
+    border-zinc-400
     @endslot
     @slot('designation')
     <span class="bg-orange-200 text-orange-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -123,7 +124,7 @@
     <img src="./assets/images/Sarpanch/girl2.jpg" class="w-16 h-16 rounded-full"/>
     @endslot
     @slot('badgecolor')
-    border-zinc-700
+    border-zinc-400
     @endslot
     @slot('designation')
     <span class="bg-orange-200 text-orange-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -144,13 +145,13 @@
 
 
     </div>
+
+
+
+
+
+
+
 </div>
-
-
-
-
-
-
-
 @endsection
 </div>

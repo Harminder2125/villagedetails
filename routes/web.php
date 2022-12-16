@@ -22,6 +22,9 @@ Route::get('/panchayat', function () {
 Route::get('/officers', function () {
     return view('frontend.officers');
 })->name('officers');
+Route::get('/buildings', function () {
+    return view('frontend.buildings');
+})->name('buildings');
 
 Route::middleware([
     'auth:sanctum',
