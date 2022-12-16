@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/panchayat', function () {
     return view('frontend.panchayat');
 })->name('panchayat');
+Route::get('/officers', function () {
+    return view('frontend.officers');
+})->name('officers');
 
 Route::middleware([
     'auth:sanctum',
