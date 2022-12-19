@@ -1,5 +1,5 @@
 <div class="relative px-4">
-    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-between border-b-4 {{$badgecolor}} mb-1">
+    <div class="bg-zinc-100 p-6 rounded-lg  flex flex-col justify-between  {{$bordercolor}} mb-1 border-dashed border-2">
         <div class="flex flex-col">
             <div class="mb-5">
                 {{$photo}}

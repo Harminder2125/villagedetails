@@ -1,4 +1,5 @@
 <div class="w-full flex h-80 justify-center  bg-orange-400  ">
+
   <div class="w-9/12 justify-center mt-auto 2xl:w-8/12">
     <nav class="bg-zinc-900 opacity-90 border-gray-200 px-2 sm:px-4 py-0.5 dark:bg-gray-900">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
@@ -27,10 +28,10 @@
               <a href="/buildings" class="block py-2 pl-3 pr-4 text-gray-300 rounded {{ Route::is('buildings') ? 'md:text-orange-400' : '' }} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Important Places</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+              <a href="/projects" class="block py-2 pl-3 pr-4 text-gray-300 rounded  {{ Route::is('projects') ? 'md:text-orange-400' : '' }} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Achievements</a>
+              <a href="/achievements" class="block py-2 pl-3 pr-4 text-gray-300 rounded  {{ Route::is('achievements') ? 'md:text-orange-400' : '' }} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Achievements</a>
             </li>
           </ul>
         </div>

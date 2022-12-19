@@ -10,15 +10,15 @@
 Officers looking after different works of this village
 @endsection
 @section('content')
-<div class="w-full justify-center flex flex-wrap bg-zinc-100 p-10">
-  <div class="flex-1 mb-10">
-    <div class="w-full ">
+<div class="w-full justify-center flex flex-wrap  py-5">
+  <div class="flex-1 mb-10 ">
+    <div class="w-full">
         @component('frontend.components.officer-cards')
         @slot('photo')
             <img src="./assets/images/Sarpanch/sikh.jpg" class="w-16 h-16 rounded-full"/>
         @endslot
-        @slot('badgecolor')
-           border-zinc-400
+        @slot('bordercolor')
+           border-zinc-200
         @endslot
         @slot('designation')
         <span class="bg-lime-400 text-lime-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -26,7 +26,7 @@ Officers looking after different works of this village
         </span>
         @endslot
         @slot('membername')
-            <span>Harminder Singh</span>
+            <span>Ravinder Singh</span>
         @endslot
         @slot('mobile')
             9888983051
@@ -43,8 +43,8 @@ Officers looking after different works of this village
     @slot('photo')
     <img src="./assets/images/Sarpanch/girl1.jpg" class="w-16 h-16 rounded-full"/>
     @endslot
-    @slot('badgecolor')
-    border-zinc-400
+    @slot('bordercolor')
+    border-zinc-200
     @endslot
     @slot('designation')
     <span class="bg-orange-200 text-orange-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -69,8 +69,8 @@ Officers looking after different works of this village
     @slot('photo')
     <img src="./assets/images/MLA/drkashmirsingh.jpg" class="w-16 h-16 rounded-full"/>
     @endslot
-    @slot('badgecolor')
-    border-zinc-400
+    @slot('bordercolor')
+    border-zinc-200
     @endslot
     @slot('designation')
     <span class="bg-orange-200 text-orange-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -95,8 +95,8 @@ Officers looking after different works of this village
     @slot('photo')
     <img src="./assets/images/Sarpanch/Sarpanch.jpg" class="w-16 h-16 rounded-full"/>
     @endslot
-    @slot('badgecolor')
-    border-zinc-400
+    @slot('bordercolor')
+    border-zinc-200
     @endslot
     @slot('designation')
     <span class="bg-orange-200 text-orange-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
@@ -123,8 +123,8 @@ Officers looking after different works of this village
     @slot('photo')
     <img src="./assets/images/Sarpanch/girl2.jpg" class="w-16 h-16 rounded-full"/>
     @endslot
-    @slot('badgecolor')
-    border-zinc-400
+    @slot('bordercolor')
+    border-zinc-200
     @endslot
     @slot('designation')
     <span class="bg-orange-200 text-orange-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">

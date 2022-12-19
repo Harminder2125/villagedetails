@@ -25,6 +25,12 @@ Route::get('/officers', function () {
 Route::get('/buildings', function () {
     return view('frontend.buildings');
 })->name('buildings');
+Route::get('/projects', function () {
+    return view('frontend.projects');
+})->name('projects');
+Route::get('/achievements', function () {
+    return view('frontend.achievements');
+})->name('achievements');
 
 Route::middleware([
     'auth:sanctum',
