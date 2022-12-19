@@ -9,6 +9,108 @@
 Government Buildings in this village
 @endsection
 @section('content')
-<div class="w-full justify-center flex flex-wrap bg-zinc-100 p-10">d</div>
+<div class="w-full  flex flex-wrap py-5">
+   <ul class="flex flex-wrap">
+
+        <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 flex-1 mr-10 ">
+            <h1 class="text-xl font-semibold">Schools (2)</h1>
+            <ul>
+                <li class="mb-1">
+                    <a href="#">
+                        <div class="flex p-3 rounded m-b border-b hover:bg-zinc-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="currentColor" class="w-5 h-5 mr-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                            </svg>
+                            <p>Government Senior Secondary School, Fatehabad</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="flex p-3 rounded m-b border-b hover:bg-zinc-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="currentColor" class="w-5 h-5 mr-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                            </svg>
+                            <p>Government Middle School, Fatehabad</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+         <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 flex-1 mr-10">
+            <h1 class="text-xl font-semibold">College (1)</h1>
+            <ul>
+                <li class="mb-1">
+                    <a href="#">
+                        <div class="flex p-3 rounded m-b  hover:bg-zinc-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="currentColor" class="w-5 h-5 mr-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                            </svg>
+                            <p>Punjab Law College, Fatehabad</p>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+
+        <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 mr-10">
+            <h1 class="text-xl font-semibold">Universities (0)</h1>
+            <ul>
+                <li class="mb-1">
+
+                        <div class="flex p-3 rounded m-b  hover:bg-zinc-200">
+
+                            <p class="text-zinc-400 mt-3">No University at this place.</p>
+                        </div>
+
+                </li>
+
+            </ul>
+        </li>
+       <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 mr-10">
+            <h1 class="text-xl font-semibold">Hospitals (0)</h1>
+            <ul>
+                <li class="mb-1">
+
+                        <div class="flex p-3 rounded m-b  hover:bg-zinc-200">
+
+                            <p class="text-zinc-400 mt-3">No hospital at this place.</p>
+                        </div>
+
+                </li>
+
+            </ul>
+        </li>
+         <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 mr-10">
+            <h1 class="text-xl font-semibold">Community Health Centres (0)</h1>
+            <ul>
+                <li class="mb-1">
+
+                        <div class="flex p-3 rounded m-b  hover:bg-zinc-200">
+
+                            <p class="text-zinc-400 mt-3">No CHC at this place.</p>
+                        </div>
+
+                </li>
+
+            </ul>
+        </li>
+          <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 mr-10 ">
+            <h1 class="text-xl font-semibold">Other Government Offices (0)</h1>
+            <ul>
+                <li class="mb-1">
+
+                        <div class="flex p-3 rounded m-b  hover:bg-zinc-200">
+
+                            <p class="text-zinc-400 mt-3">No Government Offices at this place. </p>
+                        </div>
+
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+</div>
 @endsection
 </div>
