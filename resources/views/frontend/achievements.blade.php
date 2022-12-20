@@ -9,107 +9,63 @@
 Historical Facts & Achievements
 @endsection
 @section('content')
-<div class="w-full  flex flex-wrap py-5">
-   <ul class="flex flex-wrap">
+<div class="w-full py-5">
+   <ul>
 
-        <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 flex-2 mr-10">
-            <h1 class="text-xl font-semibold mb-2">Schools (2)</h1>
-            <ul>
-                <li class="mb-1">
-                    <a href="#">
-                        <div class="flex p-3 rounded m-b border-b hover:bg-zinc-200">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="currentColor" class="w-5 h-5 mr-2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-                            </svg>
-                            <p>Government Senior Secondary School, Fatehabad</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="flex p-3 rounded m-b border-b hover:bg-zinc-200">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="currentColor" class="w-5 h-5 mr-2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-                            </svg>
-                            <p>Government Middle School, Fatehabad</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+        <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-5 flex flex-wrap mr-10 hover:bg-zinc-200">
+            <div class="pr-5 flex-2 mb-2">
+                <img src="./assets/images/MLA/drkashmirsingh.jpg" class="w-48 h-48 rounded"/>
+            </div>
+            <div class="flex-1">
+                <h1 class="text-xl font-semibold mb-0">Freedom Fighter Sh. Avtar Singh</h1>
+                <h5 class="text-sm font-regular mb-2 text-zinc-500">Contributed to freedom struggle of India</h5>
+                <div class="flex pr-3 rounded m-b  text-justify">
+                    <p>Sh. Avtar Singh is a freedom fighter from village Fatehabad, tehsil khadur sahib of district Tarn Taran. He was part of Indian army.As per 2011 census total population of this village is 1230. There is one government senior secondary school and one government primary school in this village. As of 2001 Indian census, Tarn Taran Sahib had a population of 130,587. Males constitute 51% of the population and females 49%...</p>
+                </div>
+            </div>
         </li>
-         <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 flex-2 mr-10">
-            <h1 class="text-xl font-semibold mb-2">College (1)</h1>
-            <ul>
-                <li class="mb-1">
-                    <a href="#">
-                        <div class="flex p-3 rounded m-b  hover:bg-zinc-200">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.0" stroke="currentColor" class="w-5 h-5 mr-2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-                            </svg>
-                            <p>Punjab Law College, Fatehabad</p>
-                        </div>
-                    </a>
-                </li>
+        <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-5 flex flex-wrap mr-10 hover:bg-zinc-200">
+            <div class="flex-2 pr-5 mb-2">
+                <img src="./assets/images/Battle_of_Sobraon_img.jpg" class="w-48 h-48 rounded"/>
+            </div>
+            <div class="flex-1">
+                <h1 class="text-xl font-semibold mb-0">Battle of Sobraon</h1>
+                <h5 class="text-sm font-regular mb-2 text-zinc-500">The last battle of anglo-sikh war was fought at Tarn Taran</h5>
+                <div class="flex pr-3 rounded m-b  text-justify">
+                    <p>In the First Anglo-Sikh war, four battles were fought and the Battle of Sobraon was the last battle in this series. The battle was fought on February 10, 1846, at Sobraon, a village in the Tarn Taran district of Punjab. River Sutlej crossed the southern side of the village.
 
-            </ul>
+The Sikhs had already lost the previous wars to the British owing to luck, advanced troops of the British, and betrayal by the commanders of the Sikh army, Tej Singh and Lal Singh. The Sikhs were entrenched in their encampment around the banks of river Sutlej....</p>
+                </div>
+            </div>
+        </li>
+    <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-5 flex flex-wrap mr-10 hover:bg-zinc-200">
+            <div class="pr-5 flex-2 mb-2">
+                <img src="./assets/images/MLA/drkashmirsingh.jpg" class="w-48 h-48 rounded"/>
+            </div>
+            <div class="flex-1">
+                <h1 class="text-xl font-semibold mb-0">Freedom Fighter Sh. Avtar Singh</h1>
+                <h5 class="text-sm font-regular mb-2 text-zinc-500">Contributed to freedom struggle of India</h5>
+                <div class="flex pr-3 rounded m-b  text-justify">
+                    <p>Sh. Avtar Singh is a freedom fighter from village Fatehabad, tehsil khadur sahib of district Tarn Taran. He was part of Indian army.As per 2011 census total population of this village is 1230. There is one government senior secondary school and one government primary school in this village. As of 2001 Indian census, Tarn Taran Sahib had a population of 130,587. Males constitute 51% of the population and females 49%...</p>
+                </div>
+            </div>
+        </li>
+        <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-5 flex flex-wrap mr-10 hover:bg-zinc-200">
+            <div class="flex-2 pr-5 mb-2">
+                <img src="./assets/images/Battle_of_Sobraon_img.jpg" class="w-48 h-48 rounded"/>
+            </div>
+            <div class="flex-1">
+                <h1 class="text-xl font-semibold mb-0">Battle of Sobraon</h1>
+                <h5 class="text-sm font-regular mb-2 text-zinc-500">The last battle of anglo-sikh war was fought at Tarn Taran</h5>
+                <div class="flex pr-3 rounded m-b  text-justify">
+                    <p>In the First Anglo-Sikh war, four battles were fought and the Battle of Sobraon was the last battle in this series. The battle was fought on February 10, 1846, at Sobraon, a village in the Tarn Taran district of Punjab. River Sutlej crossed the southern side of the village.
+
+The Sikhs had already lost the previous wars to the British owing to luck, advanced troops of the British, and betrayal by the commanders of the Sikh army, Tej Singh and Lal Singh. The Sikhs were entrenched in their encampment around the banks of river Sutlej....</p>
+                </div>
+            </div>
         </li>
 
-        <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 mr-10">
-            <h1 class="text-xl font-semibold mb-2">Universities (0)</h1>
-            <ul>
-                <li class="mb-1">
 
-                        <div class="flex py-2 px-6 rounded m-b  hover:bg-zinc-200">
-
-                            <p class="text-zinc-400">No University at this place.</p>
-                        </div>
-
-                </li>
-
-            </ul>
-        </li>
-       <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 mr-10">
-            <h1 class="text-xl font-semibold mb-2">Hospitals (0)</h1>
-            <ul>
-                <li class="mb-1">
-
-                        <div class="flex py-2 px-6 rounded m-b  hover:bg-zinc-200">
-
-                            <p class="text-zinc-400">No hospital at this place.</p>
-                        </div>
-
-                </li>
-
-            </ul>
-        </li>
-         <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 mr-10">
-            <h1 class="text-xl font-semibold mb-2">Community Health Centres (0)</h1>
-            <ul>
-                <li class="mb-1">
-
-                        <div class="flex py-2 px-6 rounded m-b  hover:bg-zinc-200">
-
-                            <p class="text-zinc-400">No CHC at this place.</p>
-                        </div>
-
-                </li>
-
-            </ul>
-        </li>
-          <li class="bg-zinc-100 p-5 border-zinc-300 border p-3 rounded border-dashed mb-10 mr-10 ">
-            <h1 class="text-xl font-semibold mb-2">Other Government Offices (0)</h1>
-            <ul>
-                <li class="mb-1">
-
-                        <div class="flex py-2 px-6 rounded m-b  hover:bg-zinc-200">
-
-                            <p class="text-zinc-400">No Government Offices at this place. </p>
-                        </div>
-
-                </li>
-
-            </ul>
-        </li>
     </ul>
 </div>
 @endsection
